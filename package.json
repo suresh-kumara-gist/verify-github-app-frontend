@@ -1,0 +1,18 @@
+{
+    "name": "greater-bengaluru-info",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "npx eleventy",
+        "serve": "npx eleventy --serve",
+        "dev": "npm run serve",
+        "cms": "npx netlify-cms-proxy-server"
+    },
+    "dependencies": {
+      "@11ty/eleventy": "^3.0.0",
+      "@11ty/eleventy-img": "*",
+      "tailwindcss": "*",
+      "@tailwindcss/typography": "*",
+      "postcss": "*",
+      "autoprefixer": "*"
+    }
+}
