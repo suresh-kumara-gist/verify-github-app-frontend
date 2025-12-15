@@ -1,0 +1,6 @@
+backend:
+  name: github
+  repo: suresh-kumara-gist/verify-github-app-frontend
+  branch: main
+  base_url: https://suresh-issue-82.dcycleproject.org
+  auth_endpoint: /auth/github/repo/69402cafd927a5554f9da1d9
